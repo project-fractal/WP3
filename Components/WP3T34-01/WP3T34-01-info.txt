@@ -1,0 +1,4 @@
+Component ID: WP3T34-01
+Partner:      BSC
+Name:         Driver for the edge-oriented monitoring unit
+Description:  Driver for the statistics unit supporting safety measures and validation in edge systems
