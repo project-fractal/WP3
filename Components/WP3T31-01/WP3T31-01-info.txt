@@ -1,0 +1,4 @@
+Component ID: WP3T31-01
+Partner:      BSC
+Name:         Edge-oriented monitoring unit
+Description:  AXI-compliant statistics unit to support safety measures and validation? in the context of edge systems
