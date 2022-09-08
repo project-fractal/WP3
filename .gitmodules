@@ -1,0 +1,6 @@
+[submodule "Components/WP3T31-01/edgesu"]
+	path = Components/WP3T31-01/edgesu
+	url = git@gitlab-internal.bsc.es:caos_hw/hdl_ip/edgesu.git
+[submodule "Components/WP3T34-01/edgesu"]
+	path = Components/WP3T34-01/edgesu
+	url = git@gitlab-internal.bsc.es:caos_hw/hdl_ip/edgesu.git
