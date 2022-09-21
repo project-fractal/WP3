@@ -4,3 +4,6 @@
 [submodule "Components/WP3T34-01/edgesu"]
 	path = Components/WP3T34-01/edgesu
 	url = https://gitlab.bsc.es/caos_hw/hdl_ip/edgesu.git
+[submodule "Components/WP3T34-02/sw-diverse-redundancy"]
+	path = Components/WP3T34-02/sw-diverse-redundancy
+	url = https://gitlab.bsc.es/mfernand/sw-diverse-redundancy.git
