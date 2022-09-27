@@ -1,0 +1,7 @@
+# -*- coding: utf-8 -*-
+
+CPU_WEIGTH=1.5
+MEMORY_WEIGTH=1.2
+PROCESSES_WEIGHT=0.5
+
+INDEX = 0
