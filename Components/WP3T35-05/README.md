@@ -19,7 +19,6 @@ To use this component, the following requirements are required:
 
 #### Hardware
 - Zynq UltraScale+ ZCU102 or devices with Linux OS;
-- 
 #### Software
 - Libraries: Pillow, scikit-image, opencv-python, numpy, matplotlib, tornado, psutil
 - Python3.8+
