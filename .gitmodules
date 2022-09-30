@@ -10,3 +10,6 @@
 [submodule "Components/WP3T32-06/redundant_acceleration_scheme"]
 	path = Components/WP3T32-06/redundant_acceleration_scheme
 	url = https://gitlab.com/selene-riscv-platform/selene-hardware
+[submodule "Components/WP3T34-03/WP3T34-03-Versal-Model-Deployment"]
+	path = Components/WP3T34-03/WP3T34-03-Versal-Model-Deployment
+	url = git@github.com:project-fractal/WP3T34-03-Versal-Model-Deployment.git
