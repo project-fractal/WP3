@@ -13,3 +13,9 @@
 [submodule "Components/WP3T34-03/WP3T34-03-Versal-Model-Deployment"]
 	path = Components/WP3T34-03/WP3T34-03-Versal-Model-Deployment
 	url = git@github.com:project-fractal/WP3T34-03-Versal-Model-Deployment.git
+[submodule "Components/WP3T31-02/accelerators_interconnect"]
+	path = Components/WP3T31-02/accelerators_interconnect
+	url = https://gitlab.com/selene-riscv-platform/selene-hardware
+[submodule "Components/WP3T35-02/HLSinf"]
+	path = Components/WP3T35-02/HLSinf
+	url = https://github.com/PEAK-UPV/HLSinf
