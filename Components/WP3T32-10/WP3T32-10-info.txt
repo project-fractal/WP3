@@ -1,0 +1,4 @@
+Component ID: WP3T32-10
+Partner:      Ikerlan
+Name:         Versal accelerator building-blocks
+Description:  This repository includes all necessary files and scripts to build a FRACTAL platform on any Xilinx Versal™ device. The main target of the scripts is the Versal AI Core Series VCK190 Evaluation Kit. For version 2021.1 of Xilinx tools.
