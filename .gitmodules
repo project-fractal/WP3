@@ -19,3 +19,6 @@
 [submodule "Components/WP3T35-02/HLSinf"]
 	path = Components/WP3T35-02/HLSinf
 	url = https://github.com/PEAK-UPV/HLSinf
+[submodule "Components/WP3T32-10/WP3T32-10-Versal-accelerator-building-blocks"]
+	path = Components/WP3T32-10/WP3T32-10-Versal-accelerator-building-blocks
+	url = https://github.com/project-fractal/WP3T32-10-Versal-accelerator-building-blocks
