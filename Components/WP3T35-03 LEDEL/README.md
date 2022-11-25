@@ -18,6 +18,11 @@ Two docker images with the tools needed to execute and compile EDDL code are ava
   Avaliable via:
   ```docker pull solverml/ledel:cross_compilation```
   
+  #### 1.3: EDDL standard compilatio using an open source Image:
+ 
+  Avaliable via:
+  ```docker pull solverml/ledel:artifacts`
+  
 ### 2. Code Examples
 
   Various examples of use of the EDDL functions applied to different datasets
