@@ -11,7 +11,7 @@ Two docker images with the tools needed to execute and compile EDDL code are ava
   #### 1.1: EDDL standard compilation Image:
  
   Avaliable via:
-  ```docker pull solverml/ledel:normal```
+  ```docker pull solverml/ledel:isar_riscv```
   
   #### 1.2: EDDL cross-compilation Image:
  
