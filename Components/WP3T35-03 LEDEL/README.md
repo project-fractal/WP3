@@ -8,24 +8,28 @@ In this component we present some examples of the LEDEL library installed in dif
 
 ### 1. Docker images
 
-Three docker images with the tools needed to make use of the LEDEL library has been developed:
+Three Docker images with the tools needed to make use of the LEDEL library have been developed:
 
   #### 1.1: LEDEL using the Isar RISC-V layer developed by Siemens:
   
-  In this docker image an emulation of a RISC-V hardware can be run, in which the LEDEL library has been alredy installed. This docker image allows any user to compile and execute code using the LEDEL library and includes some examples to ilustrate how to do it.
+  In this first Docker image an emulation of a RISC-V hardware can be run, in which the LEDEL library has been alredy installed. This Docker image allows any user to compile and execute code using the LEDEL library and includes some examples to ilustrate how to do it. The RISC-V emulation image used as foundation in this docker is available in the repository [https://github.com/siemens/isar-riscv](https://github.com/siemens/isar-riscv).
  
-  Avaliable via:
+This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:isar_riscv```
   
-  #### 1.2: EDDL cross-compilation Image:
- 
-  Avaliable via:
-  ```docker pull solverml/ledel:cross_compilation```
+  #### 1.2: LEDEL using an open source RISC-V emulation:
   
-  #### 1.3: EDDL standard compilatio using an open source Image:
+  Same as the previous docker but using an open sourced emulation for the RISC-V hardware. 
  
-  Avaliable via:
+  This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:artifacts```
+  
+  #### 1.3: LEDEL cross-compilation:
+ 
+  In this last Docker image a cross-compilator tool has been instaled and configured to compile C++ code aimed to be executed on RISC-V hardware without the need of interacting directly with a RISC-V system.
+ 
+ This Docker image is available to clone via the following Docker command:
+  ```docker pull solverml/ledel:cross_compilation```
   
 ### 2. Code Examples
 
