@@ -4,13 +4,15 @@ LEDEL is a Low-power Energy Deep Learning Library developed to be executed in RI
 
 In this component we present some examples of the LEDEL library installed in different emulation images of a RISC-V hardaware.
 
-## Index
+## Contents
 
 ### 1. Docker images
 
-Two docker images with the tools needed to execute and compile EDDL code are available:
+Three docker images with the tools needed to make use of the LEDEL library has been developed:
 
-  #### 1.1: EDDL standard compilation Image:
+  #### 1.1: LEDEL using the Isar RISC-V layer developed by Siemens:
+  
+  In this docker image an emulation of a RISC-V hardware can be run, in which the LEDEL library has been alredy installed. This docker image allows any user to compile and execute code using the LEDEL library and includes some examples to ilustrate how to do it.
  
   Avaliable via:
   ```docker pull solverml/ledel:isar_riscv```
