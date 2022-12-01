@@ -1,6 +1,8 @@
 # WP3T35-03 LEDEL
 
-Component explanation
+LEDEL is a Low-power Energy Deep Learning Library developed to be executed in RISC-V hardware. To achieve this, an alredy existing library based on Artificial Intelligence has been adapated to execute using RISC-V: the EDDL library. EDDL is an open source library for Distributed Deep Learning and Tensor Operations in C++ for CPU, GPU and FPGA. EDDL is developed inside the DeepHealth project and is publicly available from its GitHub [repository](https://github.com/deephealthproject/eddl).
+
+In this component we present some examples of the LEDEL library installed in different emulation images of a RISC-V hardaware.
 
 ## Index
 
