@@ -19,7 +19,7 @@ This Docker image is available to clone via the following Docker command:
   
   #### 1.2: LEDEL using an open source RISC-V emulation:
   
-  Same as the previous docker but using an open sourced emulation for the RISC-V hardware. 
+  Same as the previous docker but using an open sourced emulation for the RISC-V hardware. RISC-V emulation image available here [https://people.debian.org/~gio/dqib/](https://people.debian.org/~gio/dqib/)
  
   This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:artifacts```
