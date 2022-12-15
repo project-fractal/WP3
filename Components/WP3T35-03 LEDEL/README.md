@@ -26,6 +26,8 @@ Specific instructions about how to install and use this Docker can be found [her
   This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:artifacts```
   
+  Specific instructions about how to install and use this Docker can be found [here](https://github.com/project-fractal/WP3/tree/main/Components/WP3T35-03%20LEDEL/docker_use/open_source_riscv/README.md).
+  
   #### 1.3: LEDEL cross-compilation:
  
   In this last Docker image a cross-compilator tool has been instaled and configured to compile C++ code aimed to be executed on RISC-V hardware without the need of interacting directly with a RISC-V system.
