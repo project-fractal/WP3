@@ -16,6 +16,8 @@ Three Docker images with the tools needed to make use of the LEDEL library have 
  
 This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:isar_riscv```
+
+Specific instructions about how to install and use this Docker can be found [here](https://github.com/project-fractal/WP3/blob/main/Components/WP3T35-03%20LEDEL/docker_use/isar_riscv/README.md).
   
   #### 1.2: LEDEL using an open source RISC-V emulation:
   
