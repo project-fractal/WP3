@@ -5,7 +5,7 @@ Here are detailed the steps necessary to use the tools included in the Docker im
 ## 1. Docker instalation
 
 The Docker image can be cloned into any device with the command:
-```docker pull solverml/ledel:isar_riscv```
+```docker pull solverml/ledel:artifacts```
 
 Once cloned, we can run the image as a container by executing the command:
 ```docker run -t -d solverml/ledel:artifacts /bin/bash```
