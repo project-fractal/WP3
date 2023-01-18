@@ -5,7 +5,7 @@ The LB is a software service packed in a docker container able to identify the l
 ### Control Flow 
 The control flow can be summarized as follows:
 1. Configuration of the node (ID, IP, PORT)
-2. Configuration of the Kafka Client (IP_server, PORT_server, topic_consumer, topic_producer )
+2. Configuration of the API REST Tornado Client (IP, PORT)
 3. Configuration of the MQTT Client (publish/subscribe on Topic)
 4. Evaluate the CPU and Memory parameters
 5. Send the useful information, through REST API, to perform the load balancing 
