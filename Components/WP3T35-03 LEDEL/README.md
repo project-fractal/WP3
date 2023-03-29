@@ -32,6 +32,8 @@ This Docker image is available to clone via the following Docker command:
  
   In this last Docker image a cross-compilator tool has been instaled and configured to compile C++ code aimed to be executed on RISC-V hardware without the need of interacting directly with a RISC-V system.
  
+**Specific instructions about how to install and use this Docker can be found [here]( https://github.com/project-fractal/WP3/tree/main/Components/WP3T35-03%20LEDEL/docker_use/cross_compilation_tool/README.md).** 
+ 
  This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:cross_compilation```
   
