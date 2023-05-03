@@ -35,7 +35,7 @@ In the emulation all code examples and programs are already compiled.
 
 ### 4.1 File transfer
 
-To test custom code it may be necessary to transfer files in and out of the RISC-V emulation. Its possible to do this using ssh commands. The IP correponding  the host machine running the Docker cotainer is visble to the RISC-V emulation as 127.17.0.1, so by executing a command similar to ```scp {host_user}@127.17.0.1 {path_in_host} {path_in_emulation}``` is possible to transfer a file from the host machine to the emulation. Inverting the paths is possible to transfer a file from the emulation to the host. 
+To test custom code it may be necessary to transfer files in and out of the RISC-V emulation. Its possible to do this using ssh commands. The IP correponding  the host machine running the Docker cotainer is visble to the RISC-V emulation as 127.17.0.1, so by executing a command similar to ```scp {host_user}@172.17.0.1 {path_in_host} {path_in_emulation}``` is possible to transfer a file from the host machine to the emulation. Inverting the paths is possible to transfer a file from the emulation to the host. 
 
 ### 4.2 Emulation state commands
 
