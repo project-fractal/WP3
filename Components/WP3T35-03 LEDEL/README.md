@@ -30,12 +30,18 @@ This Docker image is available to clone via the following Docker command:
   
   #### 1.3: LEDEL cross-compilation:
  
-  In this last Docker image a cross-compilator tool has been instaled and configured to compile C++ code aimed to be executed on RISC-V hardware without the need of interacting directly with a RISC-V system.
+  In this Docker image a cross-compilator tool has been instaled and configured to compile C++ code aimed to be executed on RISC-V hardware without the need of interacting directly with a RISC-V system.
  
 **Specific instructions about how to install and use this Docker can be found [here]( https://github.com/project-fractal/WP3/tree/main/Components/WP3T35-03%20LEDEL/docker_use/cross_compilation_tool/README.md).** 
  
  This Docker image is available to clone via the following Docker command:
   ```docker pull solverml/ledel:cross_compilation```
+
+  #### 1.4: LEDEL using ROS2 ond RISC-V:
+  
+  This docker image adds ROS2 on top of the Isar RISC-V layer from Siemens. The instructions followed to build this emulation can be found in the Siemens repositor: [https://github.com/siemens/isar-riscv/blob/main/doc/ROS2.md](https://github.com/siemens/isar-riscv/blob/main/doc/ROS2.md).
+ 
+  **Specific instructions about how to install and use this Docker can be found [here](docker_use/ros2/README.md)**
   
 ### 2. Code Examples
 
