@@ -1,6 +1,6 @@
 # INSTRUCTIONS OF USE
 
-Here are detailed the steps necessary to use the tools included in the Docker image to execute and compile EDDL code.
+Here are detailed the steps necessary to use the tools included in the Docker image to execute and compile LEDEL code.
 
 ## 1. Docker installation
 
@@ -19,11 +19,11 @@ Starting from the terminal to the container and then moving to the directory ```
 
 To start the emulation run the following command: ```sh run_qemu.sh```. Once the startup of the emulation is complete it will prompt us to introduce a user and password. Type 'riscv' in both to access the RISC-V system.
 
-The terminal then will change its focus from the container to the RISC-V emulation, where its possible to run and compile code using the EDDL library since it's already been installed.
+The terminal then will change its focus from the container to the RISC-V emulation, where its possible to run and compile code using the LEDEL library since it's already been installed.
 
-## 3. Compiling and running EDDL code
+## 3. Compiling and running LEDEL code
 
-In the RISC-V emulation provided here is possible to compile C++ code using the EDDL library by writing a ```CMakeList.txt``` file along with the main code of a program and using the ```cmake``` command.
+In the RISC-V emulation provided here is possible to compile C++ code using the LEDEL library by writing a ```CMakeList.txt``` file along with the main code of a program and using the ```cmake``` command.
 
 ## 4. Useful emulation commands
 

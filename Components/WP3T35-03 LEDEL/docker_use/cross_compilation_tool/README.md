@@ -2,7 +2,7 @@
 
 Here are detailed the steps necessary to use the tools included in the Docker image to execute and compile LEDEL code.
 
-## 1. Docker instalation
+## 1. Docker installation
 
 The Docker image can be cloned into any device with the command:
 ```docker pull solverml/ledel:cross_compilation```
@@ -23,4 +23,4 @@ To show how to do this, included with the Docker container there is a code examp
 3. ```cmake .. -DCMAKE_CXX_COMPILER="/home/isar-riscv/sdk/sdk-debian-sid-ports-riscv64/usr/bin/riscv64-linux-gnu-g++"```
 4. ```make```
 
-This will generate and executable file compiled for a RISC-V system. Transfering the file to a RISC-V emulation like the ones available in the other dockers on this repository should be enough to execute it without any more modifications.
+This will generate and executable file compiled for a RISC-V system. Transferring the file to a RISC-V emulation like the ones available in the other dockers on this repository should be enough to execute it without any more modifications.
