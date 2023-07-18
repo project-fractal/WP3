@@ -22,3 +22,7 @@
 [submodule "Components/WP3T32-10/WP3T32-10-Versal-accelerator-building-blocks"]
 	path = Components/WP3T32-10/WP3T32-10-Versal-accelerator-building-blocks
 	url = https://github.com/project-fractal/WP3T32-10-Versal-accelerator-building-blocks
+[submodule "Components/WP3T31-03/Selene-RFR"]
+	path = Components/WP3T31-03/Selene-RFR
+	url = https://gitlab.com/selene-riscv-platform/selene-hardware.git
+	branch = regfile_randomization
